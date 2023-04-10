@@ -11,6 +11,7 @@ let galleryarray = [
         code: "",
         modal1: "#comingsoon",
     },
+    /* No /
     {
         id: 2,
         name: "Apakah top up dikenakan biaya?",
@@ -18,6 +19,7 @@ let galleryarray = [
         code: "modal",
         modal1: "#comingsoon",
     },
+    /* No */
 ];
 
 
