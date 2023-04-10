@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=5, viewport-fit=cover" />
+    <!-- CSS FILES -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://help.myzuu.my.id/assets/css/style.css">
+    <link rel="stylesheet" href="https://help.myzuu.my.id/assets/css/remixicon.min.css">
+    <link rel="stylesheet" href="https://help.myzuu.my.id/assets/vendors/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://help.myzuu.my.id/assets/vendors/zuck_stories/zuck.min.css">
+
+</head>
+
+<body>
+    <!-- START WRAPPER -->
+    <div id="wrapper">
+        <!-- START CONTENT -->
+        <div id="content">
+            <!-- ===================================
+              START THE PROFILE DETAILS
+            ==================================== -->
+            <section class="un-creator-ptofile">
+                <!-- head -->
+                <div class="head">
+                    <div class="cover-image">
+                        <picture>
+                            <source srcset="https://help.myzuu.my.id/assets/img/help/bg.png" type="image/webp">
+                            <img src="https://help.myzuu.my.id/assets/img/help/bg.png" alt="cover image">
+                        </picture>
+                    </div>
+                    <div class="text-user-creator">
+                        <div class="d-flex align-items-center">
+                            <div class="user-img">
+                                <picture>
+                                    <source srcset="{{foto_profil}}" type="image/webp">
+                                    <img src="{{foto_profil}}" alt="creator image">
+                                </picture>
+                            </div>
+                            <div class="text">
+                                <h3>{{nama_user}}</h3>
+                                <p>{{id_user}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- body -->
+                <div class="body">
+                    <div class="statistics" style="margin-top: 20px;">
+                        <div class="text-grid">
+                            <h4>{{total_transaksi_invoice}}</h4>
+                            <p>Proses</p>
+                        </div>
+                        <div class="text-grid">
+                            <h4>{{total_transaksi_dikirim}}</h4>
+                            <p>Terkirim</p>
+                        </div>
+
+                        <div class="text-grid">
+                            <h4>{{total_transaksi_sukses}}</h4>
+                            <p>Sukses</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <section id="profile"></section>
+
+            </section>
+        </div>
+    </div>
+
+    <!-- ===================================
+      START STATUS CONNECTION
+    ==================================== -->
+    <div class="d-flex justify-content-center">
+        <div class="toast status-connection" role="alert" aria-live="assertive" aria-atomic="true"></div>
+    </div>
+
+    <!-- JS FILES -->
+    <script src="https://help.myzuu.my.id/assets/vendors/zuck_stories/zuck.min.js"></script>
+    <script src="https://help.myzuu.my.id/assets/vendors/smoothscroll/smoothscroll.min.js"></script>
+    <script src="https://help.myzuu.my.id/assets/vendors/swiper/swiper-bundle.min.js"></script>
+    <script src="https://help.myzuu.my.id/assets/vendors/nouislider/nouislider.min.js"></script>
+    <script src="https://help.myzuu.my.id/assets/vendors/nouislider/wNumb.min.js"></script>
+    <script src="https://help.myzuu.my.id/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://help.myzuu.my.id/assets/js/custom.js"></script>
+    <script src="https://help.myzuu.my.id/assets/js/profile/myzuu.js"></script>
+</body>
+
+</html>
