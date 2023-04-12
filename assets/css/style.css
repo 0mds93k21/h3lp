@@ -99,6 +99,7 @@ body {
 input {
     text-transform: capitalize;
 }
+
 hr {
     margin: 1rem 0;
     color: inherit;
@@ -21309,19 +21310,19 @@ header.default.header-light .un-block-right .menu-sidebar .btn svg rect {
 }
 
 .un-navMenu-default .nav .nav-item .nav-link .item-content-link .icon {
-    width: 40px;
-    height: 40px;
-    border-radius: 10px;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    font-size: 22px;
+    font-size: 14px;
     margin-right: 15px
 }
 
 .un-navMenu-default .nav .nav-item .nav-link .item-content-link .link-title {
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 13px;
+    font-weight: 50;
     color: var(--dark);
     margin: 0;
 }
@@ -21335,7 +21336,11 @@ header.default.header-light .un-block-right .menu-sidebar .btn svg rect {
     font-size: 12px;
     color: var(--secondary);
     display: block;
-    margin-right: 5px
+    margin-right: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 100px;
 }
 
 .un-navMenu-default .nav .nav-item .nav-link .other-cc .icon-arrow {

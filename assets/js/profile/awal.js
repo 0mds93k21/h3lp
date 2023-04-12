@@ -32,22 +32,11 @@ function showgallery(curarra) {
             </div>
 
             <li class="nav-item">
-                <a class="nav-link" href="javascript:void(0)">
-                    <div class="item-content-link">
-                        <h3 class="link-title">Tipe Akun</h3>
-                    </div>
-                    <div class="other-cc">
-                        <span class="badge-text size-12">{{id_user}}</span>
-                        <div class="icon-arrow">
-                            <i class="ri-arrow-drop-right-line"></i>
-                        </div>
-                    </div>
-                </a>
-            </li>
-
-            <li class="nav-item">
                 <a class="nav-link" href="https://myzuu.webtoko.net/akun/?page=profil">
                     <div class="item-content-link">
+                        <div class="icon bg-orange-1 color-orange">
+                            <i class="ri-user-3-line"></i>
+                        </div>
                         <h3 class="link-title">Edit Profile</h3>
                     </div>
                     <div class="other-cc">
@@ -66,6 +55,9 @@ function showgallery(curarra) {
             <li class="nav-item">
                 <a class="nav-link" href="https://myzuu.webtoko.net/akun/?page=pin">
                     <div class="item-content-link">
+                        <div class="icon bg-red-1 color-red">
+                        <i class="ri-lock-2-line"></i>
+                        </div>
                         <h3 class="link-title">Pengaturan PIN</h3>
                     </div>
                     <div class="other-cc">
@@ -84,6 +76,9 @@ function showgallery(curarra) {
             <li class="nav-item">
                 <a class="nav-link visited" href="https://myzuu.webtoko.net/digital/194780">
                     <div class="item-content-link">
+                        <div class="icon bg-green-1 color-green">
+                            <i class="ri-questionnaire-line"></i>
+                        </div>
                         <h3 class="link-title">Help Center</h3>
                     </div>
                     <div class="other-cc">
