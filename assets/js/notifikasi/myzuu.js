@@ -5,11 +5,11 @@ let filterarray = [];
 
 let galleryarray = [
     {
-        link: "https://myzuu.webtoko.net/digital/200540",
+        link: "https://help.myzuu.my.id/blog/67556063/",
         img: "https://sc.myzuu.my.id/assets/img/produk/game/mobile-legend/myzuu.png",
         judul: "New Starlight Bulan April",
         date: "Rab, 12 Apr 2023",
-        cssHide: "#style='display: none;'",
+        cssHide: "style='display: none;'",
         button: "Open",
     },
 
