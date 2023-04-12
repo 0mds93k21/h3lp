@@ -21327,8 +21327,8 @@ header.default.header-light .un-block-right .menu-sidebar .btn svg rect {
 }
 
 .un-navMenu-default .nav .nav-item .nav-link .item-content-link .link-title {
-    font-size: 13px;
-    font-weight: 50;
+    font-size: 16px;
+    font-weight: 400;
     color: var(--dark);
     margin: 0;
 }
