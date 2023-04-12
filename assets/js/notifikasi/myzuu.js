@@ -10,7 +10,7 @@ let galleryarray = [
         judul: "New Starlight Bulan April",
         date: "Rab, 12 Apr 2023",
         cssHide: "#style='display: none;'",
-        button: "Click",
+        button: "Open",
     },
 
 ];
@@ -33,8 +33,8 @@ function showgallery(curarra) {
 
                 <div class="body">
                     <ul class="nav flex-column">
-                    <li class="nav-item" onclick="location.href='${curarra[i].link}';">
-                            <a href="javascript: void(0)" class="nav-link">
+                    <li class="nav-item">
+                            <a href="${curarra[i].link}" target="_blank" class="nav-link">
                                 <div class="item-user-img">
                                     <div class="wrapper-image">
                                         <picture>
@@ -48,7 +48,7 @@ function showgallery(curarra) {
                                     </div>
                                 </div>
                                 <div class="other-option">
-                                    <button onclick="location.href='${curarra[i].link}';" type="button" class="btn btn-sm-size border text-dark rounded-pill" ${curarra[i].cssHide}>${curarra[i].button}</button>
+                                    <button type="button" class="btn btn-sm-size border text-dark rounded-pill" ${curarra[i].cssHide}>${curarra[i].button}</button>
                                 </div>
                             </a>
                         </li>
