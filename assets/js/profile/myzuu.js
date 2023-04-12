@@ -32,20 +32,6 @@ function showgallery(curarra) {
             </div>
 
             <li class="nav-item">
-                <a class="nav-link" href="javascript:void(0)">
-                    <div class="item-content-link">
-                        <h3 class="link-title">Tipe Akun</h3>
-                    </div>
-                    <div class="other-cc">
-                        <span class="badge-text size-12">{{id_user}}</span>
-                        <div class="icon-arrow">
-                            <i class="ri-arrow-drop-right-line"></i>
-                        </div>
-                    </div>
-                </a>
-            </li>
-
-            <li class="nav-item">
                 <a class="nav-link" href="https://myzuu.webtoko.net/akun/?page=profil">
                     <div class="item-content-link">
                         <h3 class="link-title">Edit Profile</h3>
@@ -69,7 +55,6 @@ function showgallery(curarra) {
                         <h3 class="link-title">Pengaturan PIN</h3>
                     </div>
                     <div class="other-cc">
-                        <span class="badge-text size-12">myzuuu13@gmail.com</span>
                         <div class="icon-arrow">
                             <i class="ri-arrow-drop-right-line"></i>
                         </div>
