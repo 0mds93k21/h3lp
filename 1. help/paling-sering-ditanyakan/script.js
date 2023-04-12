@@ -79,7 +79,6 @@ function showgallery(curarra) {
     }
 
 }
-
 // For Live Searching Product
 
 document.getElementById("myinput").addEventListener("keyup", function () {
