@@ -80,6 +80,24 @@ function showgallery(curarra) {
                 <h2>Info Lainnya</h2>
             </div>
 
+            <!-- About --
+            <li class="nav-item">
+                <a class="nav-link" href="">
+                    <div class="item-content-link">
+                        <div class="icon bg-blue-1 color-blue">
+                            <i class="ri-information-line"></i>
+                        </div>
+                        <h3 class="link-title">About Myzuu</h3>
+                    </div>
+                    <div class="other-cc">
+                        <span class="badge-text"></span>
+                        <div class="icon-arrow">
+                            <i class="ri-arrow-drop-right-line"></i>
+                        </div>
+                    </div>
+                </a>
+            </li>
+
             <li class="nav-item">
                 <a class="nav-link visited" href="https://myzuu.webtoko.net/digital/194780">
                     <div class="item-content-link">
@@ -107,6 +125,7 @@ function showgallery(curarra) {
                     </div>
                 </a>
             </li>
+            <!-- About -->
 
             <li class="nav-item">
                 <a class="nav-link visited" href="https://myzuu.webtoko.net/digital/194780">
@@ -121,25 +140,6 @@ function showgallery(curarra) {
                     </div>
                 </a>
             </li>
-
-            <!-- About --
-            <li class="nav-item">
-                <a class="nav-link" href="">
-                    <div class="item-content-link">
-                        <div class="icon bg-blue-1 color-blue">
-                            <i class="ri-information-line"></i>
-                        </div>
-                        <h3 class="link-title">About Myzuu</h3>
-                    </div>
-                    <div class="other-cc">
-                        <span class="badge-text"></span>
-                        <div class="icon-arrow">
-                            <i class="ri-arrow-drop-right-line"></i>
-                        </div>
-                    </div>
-                </a>
-            </li>
-            <!-- About -->
 
             <div class="sub-title-pkg">
                 <h2>we'll miss you</h2>
