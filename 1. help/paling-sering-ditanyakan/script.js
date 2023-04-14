@@ -50,16 +50,26 @@ let galleryarray = [
     },
 ];
 
-
-
 showgallery(galleryarray);
 
-
 // create function to show card
-
-
 function showgallery(curarra) {
     document.getElementById("378962").innerText = "";
+
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myinput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("378962");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
     for (var i = 0; i < curarra.length; i++) {
         document.getElementById("378962").innerHTML += `
                <li class="nav-item">
@@ -79,30 +89,21 @@ function showgallery(curarra) {
     }
 
 }
-// For Live Searching Product
 
-document.getElementById("myinput").addEventListener("keyup", function () {
-    let text = document.getElementById("myinput").value;
 
-    filterarray = galleryarray.filter(function (a) {
-        if (a.name.includes(text)) {
-            return a.name;
-        }
-
-    });
-    if (this.value == "") {
-        showgallery(galleryarray);
-    }
-    else {
-        if (filterarray == "") {
-            document.getElementById("para").style.display = 'block'
-            document.getElementById("378962").innerHTML = "";
-        }
-        else {
-
-            showgallery(filterarray);
-            document.getElementById("para").style.display = 'none'
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myinput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("378962");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
         }
     }
-
-});
+}

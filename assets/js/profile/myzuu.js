@@ -28,13 +28,27 @@ function showgallery(curarra) {
         <section class="un-navMenu-default without-visit">
         <ul class="nav flex-column">
             <div class="sub-title-pkg">
-                <h2>Akun</h2>
+                <h2>Akun dan Keamanan</h2>
             </div>
+
+            <li class="nav-item">
+                <a class="nav-link" href="https://myzuu.webtoko.net/digital/202202">
+                    <div class="item-content-link">
+                        <h3 class="link-title">Ajak teman</h3>
+                    </div>
+                    <div class="other-cc">
+                        <span class="badge-text"></span>
+                        <div class="icon-arrow">
+                            <i class="ri-arrow-drop-right-line"></i>
+                        </div>
+                    </div>
+                </a>
+            </li>
 
             <li class="nav-item">
                 <a class="nav-link" href="https://myzuu.webtoko.net/akun/?page=profil">
                     <div class="item-content-link">
-                        <h3 class="link-title">Edit Profile</h3>
+                        <h3 class="link-title">Ubah data akun</h3>
                     </div>
                     <div class="other-cc">
                         <span class="badge-text"></span>
@@ -63,8 +77,36 @@ function showgallery(curarra) {
             </li>
 
             <div class="sub-title-pkg">
-                <h2>Bantuan</h2>
+                <h2>Info Lainnya</h2>
             </div>
+
+            <li class="nav-item">
+                <a class="nav-link visited" href="https://myzuu.webtoko.net/digital/194780">
+                    <div class="item-content-link">
+                        <h3 class="link-title">Syarat dan Ketentuan</h3>
+                    </div>
+                    <div class="other-cc">
+                        <span class="badge-text"></span>
+                        <div class="icon-arrow">
+                            <i class="ri-arrow-drop-right-line"></i>
+                        </div>
+                    </div>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link visited" href="">
+                    <div class="item-content-link">
+                        <h3 class="link-title">Kebijakan Privasi</h3>
+                    </div>
+                    <div class="other-cc">
+                        <span class="badge-text"></span>
+                        <div class="icon-arrow">
+                            <i class="ri-arrow-drop-right-line"></i>
+                        </div>
+                    </div>
+                </a>
+            </li>
 
             <li class="nav-item">
                 <a class="nav-link visited" href="https://myzuu.webtoko.net/digital/194780">
