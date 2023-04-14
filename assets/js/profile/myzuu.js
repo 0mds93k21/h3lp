@@ -80,23 +80,6 @@ function showgallery(curarra) {
                 <h2>Info Lainnya</h2>
             </div>
 
-            <li class="nav-item">
-                <a class="nav-link" href="https://myzuu.webtoko.net/digital/202205">
-                    <div class="item-content-link">
-                        <div class="icon bg-blue-1 color-blue">
-                            <i class="ri-information-line"></i>
-                        </div>
-                        <h3 class="link-title">About Myzuu</h3>
-                    </div>
-                    <div class="other-cc">
-                        <span class="badge-text"></span>
-                        <div class="icon-arrow">
-                            <i class="ri-arrow-drop-right-line"></i>
-                        </div>
-                    </div>
-                </a>
-            </li>
-
             <!-- About --
             <li class="nav-item">
                 <a class="nav-link visited" href="https://myzuu.webtoko.net/digital/194780">
