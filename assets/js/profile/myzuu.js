@@ -80,9 +80,8 @@ function showgallery(curarra) {
                 <h2>Info Lainnya</h2>
             </div>
 
-            <!-- About --
             <li class="nav-item">
-                <a class="nav-link" href="">
+                <a class="nav-link" href="https://myzuu.webtoko.net/digital/202205">
                     <div class="item-content-link">
                         <div class="icon bg-blue-1 color-blue">
                             <i class="ri-information-line"></i>
@@ -98,6 +97,7 @@ function showgallery(curarra) {
                 </a>
             </li>
 
+            <!-- About --
             <li class="nav-item">
                 <a class="nav-link visited" href="https://myzuu.webtoko.net/digital/194780">
                     <div class="item-content-link">
