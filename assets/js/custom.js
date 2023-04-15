@@ -238,3 +238,7 @@ document.onkeydown = (e) => {
   )
     return false;
 };
+
+const d = new Date();
+let year = d.getFullYear();
+document.getElementById("copyright").innerHTML = "&copy; Copyright Myzuu 2022 - " + year;
